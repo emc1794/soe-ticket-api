@@ -1,0 +1,8 @@
+2026-07-21 19:11:20:1120 [31merror[39m: [31mUnable to connect to the MySQL database: connect ECONNREFUSED 127.0.0.1:3306[39m
+2026-07-21 19:17:05:175 [31merror[39m: [31mUnable to connect to the MySQL database: connect ECONNREFUSED 127.0.0.1:3306[39m
+2026-07-21 19:17:30:1730 [31merror[39m: [31mUnable to connect to the MySQL database: Access denied for user 'root'@'172.17.0.1' (using password: YES)[39m
+2026-07-21 19:17:43:1743 [31merror[39m: [31mUnable to connect to the MySQL database: Access denied for user 'root'@'172.17.0.1' (using password: YES)[39m
+2026-07-21 19:18:23:1823 [31merror[39m: [31mUnable to connect to the MySQL database: Access denied for user 'root'@'172.17.0.1' (using password: YES)[39m
+2026-07-21 19:18:34:1834 [31merror[39m: [31mUnable to connect to the MySQL database: Access denied for user 'root'@'172.17.0.1' (using password: YES)[39m
+2026-07-21 19:22:26:2226 [31merror[39m: [31mUnable to connect to the MySQL database: Access denied for user 'root'@'172.17.0.1' (using password: YES)[39m
+2026-07-21 19:25:20:2520 [31merror[39m: [31mUnable to connect to the MySQL database: Connection lost: The server closed the connection.[39m
