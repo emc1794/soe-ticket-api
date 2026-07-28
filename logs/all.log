@@ -12,3 +12,11 @@
 2026-07-21 19:26:18:2618 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
 2026-07-21 19:26:18:2618 [34minfo[39m: [34mMySQL Database connected successfully.[39m
 2026-07-21 19:26:18:2618 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 12:04:52:452 [31merror[39m: [31mUnable to connect to the MySQL database:[39m
+2026-07-28 12:08:22:822 [31merror[39m: [31mUnable to connect to the MySQL database: connect ECONNREFUSED 100.93.232.89:3306[39m
+2026-07-28 14:06:59:659 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 14:06:59:659 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 14:06:59:659 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:05:01:51 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:05:01:51 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:05:01:51 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
