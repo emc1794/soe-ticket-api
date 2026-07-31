@@ -1,18 +1,21 @@
 import { Router } from 'express';
 import { userController } from './user.controller';
+import { authMiddleware } from '../../../../middlewares/auth.middleware';
 
 const router = Router();
 
 /**
  * @swagger
- * /users:
+ * /users/profile:
  *   get:
- *     summary: Retrieve a list of users
+ *     summary: Retrieve the authenticated user's profile
  *     tags: [Users]
+ *     security:
+ *       - bearerAuth: []
  *     responses:
  *       200:
- *         description: A list of users.
+ *         description: User profile retrieved successfully
  */
-router.get('/', userController.getAll);
+router.get('/profile', authMiddleware, userController.getProfile);
 
 export default router;

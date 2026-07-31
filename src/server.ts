@@ -1,9 +1,13 @@
 import app from './app';
 import { connectDB } from './database/mysql';
 import { logger } from './utils/logger';
+import { registerSubscribers } from './shared/infrastructure/bus/subscribers';
 
 const startServer = async () => {
   try {
+    // Register Domain Event Subscribers
+    registerSubscribers();
+
     // Connect to Database
     await connectDB();
     

@@ -1,20 +1,50 @@
 import { Router } from 'express';
-import { successResponse } from '../../../../shared/response';
+import { AuthController } from './AuthController';
 
 const router = Router();
+const controller = new AuthController();
 
 /**
  * @swagger
- * /auth:
- *   get:
- *     summary: Example endpoint for auth
+ * /auth/register:
+ *   post:
+ *     summary: Register a new user
  *     tags: [auth]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               email: { type: string }
+ *               name: { type: string }
+ *               password: { type: string }
+ *     responses:
+ *       201:
+ *         description: User registered successfully
+ */
+router.post('/register', controller.register);
+
+/**
+ * @swagger
+ * /auth/login:
+ *   post:
+ *     summary: Login a user
+ *     tags: [auth]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               email: { type: string }
+ *               password: { type: string }
  *     responses:
  *       200:
- *         description: Success
+ *         description: Login successful
  */
-router.get('/', (req, res) => {
-  res.status(200).json(successResponse({}, 'auth module is working'));
-});
+router.post('/login', controller.login);
 
 export default router;

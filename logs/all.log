@@ -20,3 +20,1053 @@
 2026-07-28 17:05:01:51 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
 2026-07-28 17:05:01:51 [34minfo[39m: [34mMySQL Database connected successfully.[39m
 2026-07-28 17:05:01:51 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:33:44:3344 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:33:44:3344 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:33:44:3344 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:33:48:3348 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:33:48:3348 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:33:48:3348 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:33:53:3353 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:33:53:3353 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:33:53:3353 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:33:57:3357 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:33:57:3357 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:33:57:3357 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:34:02:342 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:34:02:342 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:34:02:342 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:34:07:347 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:34:07:347 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:34:07:347 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:34:11:3411 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:34:11:3411 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:34:11:3411 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:34:15:3415 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:34:15:3415 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:34:15:3415 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:34:28:3428 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:34:28:3428 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:34:28:3428 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:34:33:3433 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:34:33:3433 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:34:33:3433 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:34:39:3439 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:34:39:3439 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:34:39:3439 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:34:51:3451 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:34:51:3451 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:34:51:3451 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:34:58:3458 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:34:58:3458 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:34:58:3458 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:35:06:356 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:35:06:356 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:35:06:356 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:35:10:3510 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:35:11:3511 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:35:11:3511 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:35:27:3527 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:35:27:3527 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:35:27:3527 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:35:34:3534 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:35:34:3534 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:35:34:3534 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:35:39:3539 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:35:39:3539 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:35:39:3539 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:35:43:3543 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:35:44:3544 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:35:44:3544 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:35:59:3559 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:35:59:3559 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:35:59:3559 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:36:06:366 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:36:06:366 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:36:06:366 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:36:35:3635 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:36:35:3635 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:36:35:3635 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:36:39:3639 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:36:40:3640 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:36:40:3640 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:36:45:3645 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:36:45:3645 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:36:45:3645 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:36:49:3649 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:36:49:3649 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:36:49:3649 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-28 17:36:54:3654 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-28 17:36:54:3654 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-28 17:36:54:3654 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 15:57:32:5732 [31merror[39m: [31mUnable to connect to the MySQL database: Access denied for user 'ticketwave'@'172.17.0.1' (using password: YES)[39m
+2026-07-30 16:00:04:04 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:00:04:04 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:00:04:04 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:50:48:5048 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:50:48:5048 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:50:48:5048 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:50:57:5057 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:50:58:5058 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:50:58:5058 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:51:08:518 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:51:08:518 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:51:08:518 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:51:19:5119 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:51:19:5119 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:51:19:5119 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:51:54:5154 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:51:54:5154 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:51:54:5154 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:52:03:523 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:52:04:524 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:52:04:524 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:52:12:5212 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:52:12:5212 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:52:12:5212 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:52:27:5227 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:52:27:5227 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:52:27:5227 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:53:21:5321 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:53:21:5321 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:53:21:5321 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:53:40:5340 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:53:40:5340 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:53:40:5340 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:54:19:5419 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:54:19:5419 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:54:19:5419 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:54:26:5426 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:54:26:5426 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:54:26:5426 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:54:33:5433 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:54:33:5433 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:54:33:5433 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:54:45:5445 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:54:45:5445 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:54:45:5445 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:55:00:550 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:55:00:550 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:55:00:550 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:55:12:5512 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:55:12:5512 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:55:12:5512 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:55:28:5528 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:55:28:5528 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:55:28:5528 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:55:40:5540 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:55:40:5540 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:55:40:5540 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:55:58:5558 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:55:58:5558 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:55:58:5558 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:56:05:565 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:56:05:565 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:56:05:565 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:56:12:5612 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:56:12:5612 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:56:12:5612 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:56:29:5629 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:56:29:5629 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:56:29:5629 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:56:48:5648 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:56:48:5648 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:56:48:5648 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:56:55:5655 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:56:55:5655 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:56:55:5655 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:57:11:5711 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:57:11:5711 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:57:11:5711 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:57:19:5719 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:19:5719 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:19:5719 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:19:5719 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:20:5720 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:20:5720 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:20:5720 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:57:20:5720 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:57:20:5720 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:57:20:5720 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:21:5721 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:21:5721 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:21:5721 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:22:5722 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:23:5723 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:23:5723 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:24:5724 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:26:5726 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:26:5726 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:26:5726 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:26:5726 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:26:5726 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:26:5726 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:26:5726 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:57:27:5727 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:57:27:5727 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:57:27:5727 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:27:5727 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:27:5727 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:28:5728 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:28:5728 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:29:5729 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:30:5730 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:30:5730 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:31:5731 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:32:5732 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:32:5732 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:33:5733 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:34:5734 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:35:5735 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:36:5736 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:37:5737 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:38:5738 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:40:5740 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:41:5741 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:42:5742 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:43:5743 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:45:5745 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:47:5747 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:47:5747 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:48:5748 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:48:5748 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:48:5748 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:48:5748 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:48:5748 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:57:48:5748 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:49:5749 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:57:49:5749 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:57:49:5749 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:49:5749 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:50:5750 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:50:5750 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:51:5751 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:51:5751 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:52:5752 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:53:5753 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:54:5754 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:56:5756 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:56:5756 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:56:5756 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:56:5756 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:56:5756 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:56:5756 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:57:57:5757 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:57:5757 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:57:57:5757 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:57:57:5757 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:57:5757 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:58:5758 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:58:5758 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:59:5759 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:57:59:5759 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:00:580 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:00:580 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:01:581 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:02:582 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:03:583 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:04:584 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:04:584 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:05:585 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:06:586 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:07:587 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:09:589 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:10:5810 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:11:5811 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:12:5812 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:13:5813 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:15:5815 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:16:5816 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:18:5818 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:19:5819 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:21:5821 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:22:5822 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:24:5824 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:26:5826 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:28:5828 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:29:5829 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:31:5831 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:34:5834 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:34:5834 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:34:5834 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:34:5834 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:34:5834 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:34:5834 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:34:5834 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:58:35:5835 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:58:35:5835 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:58:35:5835 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:35:5835 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:35:5835 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:36:5836 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:36:5836 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:37:5837 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:39:5839 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:39:5839 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:39:5839 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:39:5839 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:39:5839 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:40:5840 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:40:5840 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:58:40:5840 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:40:5840 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:58:40:5840 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:58:40:5840 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:41:5841 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:41:5841 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:42:5842 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:42:5842 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:43:5843 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:44:5844 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:44:5844 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:45:5845 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:46:5846 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:47:5847 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:48:5848 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:49:5849 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:50:5850 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:51:5851 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:53:5853 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:53:5853 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:53:5853 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:53:5853 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:53:5853 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:54:5854 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:54:5854 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:58:54:5854 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:54:5854 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:58:54:5854 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:58:54:5854 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:55:5855 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:55:5855 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:56:5856 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:56:5856 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:57:5857 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:58:5858 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:58:5858 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:58:59:5859 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:00:590 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:02:592 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:02:592 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:02:592 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:03:593 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:03:593 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:03:593 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:03:593 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:59:03:593 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:03:593 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:59:03:593 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:59:04:594 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:04:594 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:05:595 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:05:595 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:06:596 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:06:596 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:07:597 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:09:599 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:09:599 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:09:599 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:09:599 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:10:5910 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:10:5910 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:59:10:5910 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:10:5910 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:59:10:5910 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:59:10:5910 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:11:5911 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:11:5911 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:11:5911 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:12:5912 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:13:5913 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:13:5913 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:15:5915 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:15:5915 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:15:5915 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:16:5916 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:16:5916 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:16:5916 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:16:5916 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:16:5916 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:59:16:5916 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:59:16:5916 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:59:17:5917 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:17:5917 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:18:5918 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:18:5918 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:19:5919 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:19:5919 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:20:5920 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:21:5921 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:21:5921 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:22:5922 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:23:5923 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:24:5924 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:25:5925 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:26:5926 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:27:5927 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:28:5928 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:31:5931 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:31:5931 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:31:5931 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:31:5931 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:31:5931 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:32:5932 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:32:5932 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:59:32:5932 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:32:5932 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:59:32:5932 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:59:32:5932 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:33:5933 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:33:5933 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:34:5934 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:34:5934 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:35:5935 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:37:5937 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:37:5937 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:37:5937 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:37:5937 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:38:5938 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:38:5938 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:38:5938 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:38:5938 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:59:38:5938 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:59:38:5938 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:59:39:5939 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:39:5939 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:39:5939 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:40:5940 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:40:5940 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:41:5941 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:42:5942 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:42:5942 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:43:5943 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:45:5945 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:45:5945 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:46:5946 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:46:5946 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:46:5946 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:46:5946 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:46:5946 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 16:59:46:5946 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 16:59:46:5946 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 16:59:46:5946 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:47:5947 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:47:5947 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:48:5948 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:48:5948 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:49:5949 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:49:5949 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:50:5950 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:51:5951 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:52:5952 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:52:5952 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:53:5953 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:54:5954 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:55:5955 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:56:5956 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:57:5957 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:58:5958 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 16:59:59:5959 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:01:01 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:02:02 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:03:03 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:05:05 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:06:06 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:07:07 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:09:09 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:10:010 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:12:012 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:14:014 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:15:015 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:17:017 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:19:019 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:21:021 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:23:023 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:25:025 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:27:027 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:29:029 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:31:031 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:31:031 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:31:031 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:31:031 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:31:031 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:31:031 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:32:032 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:00:32:032 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:32:032 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:00:32:032 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 17:00:32:032 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:32:032 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:33:033 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:33:033 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:34:034 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:35:035 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:35:035 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:36:036 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:38:038 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:38:038 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:38:038 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:38:038 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:39:039 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:39:039 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:39:039 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:39:039 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:00:39:039 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:00:39:039 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 17:00:40:040 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:40:040 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:40:040 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:41:041 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:41:041 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:42:042 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:43:043 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:45:045 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:45:045 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:45:045 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:45:045 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:45:045 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:46:046 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:46:046 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:00:46:046 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:00:46:046 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 17:00:46:046 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:46:046 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:47:047 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:47:047 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:48:048 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:48:048 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:49:049 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:51:051 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:51:051 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:51:051 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:51:051 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:51:051 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:52:052 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:52:052 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:00:52:052 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:52:052 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:00:52:052 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 17:00:52:052 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:53:053 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:53:053 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:54:054 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:54:054 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:55:055 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:56:056 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:57:057 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:58:058 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:58:058 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:58:058 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:58:058 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:58:058 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:00:58:058 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:58:058 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:00:58:058 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 17:00:59:059 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:59:059 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:00:59:059 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:00:10 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:00:10 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:01:11 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:01:11 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:03:13 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:03:13 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:03:13 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:04:14 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:04:14 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:04:14 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:04:14 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:01:04:14 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:04:14 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:01:04:14 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 17:01:05:15 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:05:15 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:06:16 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:06:16 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:07:17 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:07:17 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:08:18 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:09:19 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:09:19 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:10:110 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:11:111 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:12:112 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:13:113 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:14:114 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:15:115 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:16:116 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:17:117 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:18:118 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:20:120 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:21:121 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:22:122 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:24:124 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:25:125 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:27:127 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:28:128 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:30:130 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:32:132 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:33:133 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:35:135 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:38:138 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:38:138 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:38:138 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:38:138 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:38:138 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:38:138 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:39:139 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:01:39:139 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:39:139 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:01:39:139 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 17:01:39:139 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:39:139 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:40:140 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:40:140 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:41:141 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:42:142 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:42:142 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:43:143 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:44:144 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:45:145 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:45:145 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:46:146 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:47:147 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:48:148 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:49:149 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:50:150 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:52:152 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:53:153 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:54:154 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:55:155 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:57:157 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:01:58:158 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:00:20 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:01:21 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:03:23 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:04:24 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:06:26 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:08:28 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:09:29 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:11:211 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:13:213 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:15:215 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:19:219 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:19:219 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:19:219 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:19:219 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:19:219 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:19:219 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:20:220 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:02:20:220 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:02:20:220 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 17:02:20:220 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:20:220 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:21:221 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:21:221 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:21:221 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:22:222 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:23:223 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:23:223 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:24:224 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:26:226 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:26:226 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:26:226 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:26:226 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:27:227 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:27:227 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:27:227 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:02:27:227 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:27:227 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:02:27:227 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 17:02:28:228 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:28:228 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:29:229 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:29:229 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:30:230 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:30:230 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:31:231 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:32:232 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:34:234 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:34:234 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:34:234 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:34:234 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:34:234 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:35:235 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:35:235 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:35:235 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:02:35:235 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:02:35:235 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 17:02:35:235 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:36:236 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:36:236 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:37:237 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:37:237 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:38:238 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:39:239 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:39:239 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:41:241 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:41:241 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:41:241 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:42:242 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:42:242 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:42:242 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:42:242 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:42:242 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:02:43:243 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:02:43:243 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 17:02:43:243 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:43:243 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:44:244 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:44:244 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:45:245 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:45:245 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:46:246 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:47:247 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:47:247 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:48:248 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:49:249 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:51:251 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:51:251 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:52:252 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:52:252 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:52:252 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:52:252 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:52:252 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:02:52:252 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:53:253 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:02:53:253 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 17:02:53:253 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:53:253 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:54:254 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:54:254 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:55:255 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:55:255 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:56:256 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:58:258 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:58:258 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:58:258 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:58:258 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:58:258 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:59:259 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:59:259 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:02:59:259 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:02:59:259 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:02:59:259 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 17:02:59:259 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:00:30 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:00:30 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:01:31 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:01:31 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:02:32 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:03:33 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:03:33 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:04:34 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:05:35 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:06:36 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:07:37 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:08:38 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:09:39 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:10:310 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:11:311 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:11:311 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:11:311 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:12:312 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:12:312 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:12:312 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:12:312 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:03:12:312 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:12:312 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:03:12:312 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 17:03:13:313 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:13:313 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:14:314 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:14:314 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:15:315 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:15:315 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:16:316 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:17:317 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:17:317 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:18:318 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:19:319 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:20:320 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:21:321 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:22:322 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:23:323 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:24:324 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:25:325 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:27:327 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:28:328 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:29:329 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:32:332 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:32:332 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:32:332 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:32:332 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:33:333 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:33:333 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:03:33:333 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:33:333 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:03:33:333 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 17:03:33:333 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:34:334 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:34:334 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:34:334 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:35:335 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:36:336 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:36:336 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:37:337 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:37:337 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:38:338 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:39:339 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:40:340 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:41:341 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:43:343 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:43:343 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:43:343 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:44:344 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:44:344 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:44:344 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:44:344 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:44:344 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:03:44:344 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:03:44:344 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 17:03:45:345 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:45:345 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:46:346 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:46:346 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:47:347 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:47:347 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:48:348 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:49:349 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:49:349 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:50:350 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:53:353 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:53:353 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:53:353 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:53:353 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:53:353 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:53:353 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:03:53:353 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:54:354 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:03:54:354 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 17:03:54:354 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:54:354 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:55:355 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:55:355 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:56:356 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:56:356 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:57:357 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:57:357 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:58:358 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:03:59:359 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:01:41 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:01:41 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:01:41 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:01:41 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:02:42 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:02:42 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:02:42 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:04:02:42 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:04:02:42 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 17:04:02:42 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:03:43 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:03:43 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:03:43 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:04:44 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:05:45 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:05:45 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:06:46 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:07:47 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:07:47 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:08:48 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:09:49 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:10:410 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:11:411 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:12:412 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:13:413 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:14:414 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:15:415 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:16:416 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:18:418 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:19:419 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:20:420 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:22:422 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:23:423 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:25:425 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:26:426 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:28:428 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:29:429 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:31:431 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:33:433 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:35:435 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:37:437 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:39:439 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:40:440 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:42:442 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:44:444 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:46:446 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:49:449 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:51:451 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:53:453 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:55:455 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:57:457 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:04:59:459 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:01:51 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:03:53 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:05:55 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:07:57 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:09:59 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:11:511 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:13:513 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:15:515 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:17:517 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:19:519 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:21:521 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:23:523 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:25:525 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:27:527 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:29:529 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:31:531 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:33:533 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:35:535 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:37:537 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:39:539 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:41:541 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:43:543 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:45:545 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:47:547 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:49:549 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:51:551 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:53:553 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:55:555 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:57:557 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:05:59:559 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:01:61 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:03:63 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:05:65 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:07:67 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:09:69 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:11:611 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:13:613 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:15:615 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:17:617 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:19:619 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:21:621 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:23:623 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:25:625 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:27:627 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:29:629 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:31:631 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:33:633 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:35:635 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:37:637 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:39:639 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:41:641 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:06:43:643 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-07-30 17:32:06:326 [34minfo[39m: [34mRedis connected successfully.[39m
+2026-07-30 17:32:07:327 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 17:32:07:327 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 17:32:07:327 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 18:41:24:4124 [34minfo[39m: [34mRedis connected successfully.[39m
+2026-07-30 18:41:24:4124 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 18:41:24:4124 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 18:41:24:4124 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 18:59:58:5958 [37mdebug[39m: [37mExecuting (default): SELECT `id`, `email`, `password`, `name`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`email` = 'user@example.com';[39m
+2026-07-30 19:00:33:033 [34minfo[39m: [34mRedis connected successfully.[39m
+2026-07-30 19:00:37:037 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 19:00:37:037 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'venues' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:00:37:037 [37mdebug[39m: [37mExecuting (default): CREATE TABLE IF NOT EXISTS `venues` (`id` VARCHAR(255) , `name` VARCHAR(255) NOT NULL, `address` VARCHAR(255) NOT NULL, `city` VARCHAR(255) NOT NULL, `capacity` INTEGER NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;[39m
+2026-07-30 19:00:37:037 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `venues`[39m
+2026-07-30 19:00:37:037 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'events' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:00:37:037 [37mdebug[39m: [37mExecuting (default): CREATE TABLE IF NOT EXISTS `events` (`id` VARCHAR(255) , `title` VARCHAR(255) NOT NULL, `description` TEXT NOT NULL, `date` DATETIME NOT NULL, `venueId` VARCHAR(255) NOT NULL, `artist` VARCHAR(255) NOT NULL, `city` VARCHAR(255) NOT NULL, `type` ENUM('assigned', 'general') NOT NULL DEFAULT 'general', `metadata` JSON NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`), FOREIGN KEY (`venueId`) REFERENCES `venues` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE) ENGINE=InnoDB;[39m
+2026-07-30 19:00:37:037 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `events`[39m
+2026-07-30 19:00:38:038 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:00:38:038 [37mdebug[39m: [37mExecuting (default): CREATE TABLE IF NOT EXISTS `users` (`id` VARCHAR(255) , `email` VARCHAR(255) NOT NULL UNIQUE, `password` VARCHAR(255) NOT NULL, `name` VARCHAR(255) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;[39m
+2026-07-30 19:00:38:038 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `users`[39m
+2026-07-30 19:00:38:038 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'orders' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:00:38:038 [37mdebug[39m: [37mExecuting (default): CREATE TABLE IF NOT EXISTS `orders` (`id` VARCHAR(255) , `userId` VARCHAR(255) NOT NULL, `eventId` VARCHAR(255) NOT NULL, `amount` DECIMAL(10,2) NOT NULL, `status` VARCHAR(255) NOT NULL, `seatNumbers` JSON NOT NULL, `appliedPromoCode` VARCHAR(255), `discountedAmount` DECIMAL(10,2) NOT NULL DEFAULT 0, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`), FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE, FOREIGN KEY (`eventId`) REFERENCES `events` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE) ENGINE=InnoDB;[39m
+2026-07-30 19:00:38:038 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `orders`[39m
+2026-07-30 19:00:39:039 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tickets' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:00:39:039 [37mdebug[39m: [37mExecuting (default): CREATE TABLE IF NOT EXISTS `tickets` (`id` VARCHAR(255) , `orderId` VARCHAR(255) NOT NULL, `eventId` VARCHAR(255) NOT NULL, `userId` VARCHAR(255) NOT NULL, `seatNumber` VARCHAR(255), `qrCode` VARCHAR(255), `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`), FOREIGN KEY (`orderId`) REFERENCES `orders` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE, FOREIGN KEY (`eventId`) REFERENCES `events` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE, FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE) ENGINE=InnoDB;[39m
+2026-07-30 19:00:39:039 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `tickets`[39m
+2026-07-30 19:00:39:039 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 19:00:39:039 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 19:00:47:047 [34minfo[39m: [34mRedis connected successfully.[39m
+2026-07-30 19:00:47:047 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 19:00:47:047 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'venues' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:00:48:048 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `venues`[39m
+2026-07-30 19:00:48:048 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'events' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:00:48:048 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `events`[39m
+2026-07-30 19:00:48:048 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:00:48:048 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `users`[39m
+2026-07-30 19:00:48:048 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'orders' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:00:48:048 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `orders`[39m
+2026-07-30 19:00:48:048 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tickets' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:00:48:048 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `tickets`[39m
+2026-07-30 19:00:48:048 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 19:00:48:048 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 19:00:56:056 [37mdebug[39m: [37mExecuting (default): SELECT `id`, `email`, `password`, `name`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`email` = 'user@example.com';[39m
+2026-07-30 19:00:56:056 [37mdebug[39m: [37mExecuting (default): INSERT INTO `users` (`id`,`email`,`password`,`name`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?) ON DUPLICATE KEY UPDATE `id`=VALUES(`id`),`email`=VALUES(`email`),`password`=VALUES(`password`),`name`=VALUES(`name`),`updatedAt`=VALUES(`updatedAt`);[39m
+2026-07-30 19:03:16:316 [37mdebug[39m: [37mExecuting (default): SELECT `id`, `email`, `password`, `name`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`email` = 'user@example.com';[39m
+2026-07-30 19:03:50:350 [37mdebug[39m: [37mExecuting (default): SELECT `id`, `email`, `password`, `name`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`email` = 'user@example.com';[39m
+2026-07-30 19:04:56:456 [34minfo[39m: [34mRedis connected successfully.[39m
+2026-07-30 19:04:57:457 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 19:04:57:457 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'venues' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:04:57:457 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `venues`[39m
+2026-07-30 19:04:57:457 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'events' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:04:57:457 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `events`[39m
+2026-07-30 19:04:57:457 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:04:57:457 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `users`[39m
+2026-07-30 19:04:57:457 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'orders' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:04:57:457 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `orders`[39m
+2026-07-30 19:04:57:457 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tickets' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:04:57:457 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `tickets`[39m
+2026-07-30 19:04:57:457 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 19:04:57:457 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 19:07:17:717 [37mdebug[39m: [37mExecuting (default): SELECT `id`, `email`, `password`, `name`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`email` = 'user@example.com';[39m
+2026-07-30 19:07:36:736 [37mdebug[39m: [37mExecuting (default): SELECT `id`, `email`, `password`, `name`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`email` = 'user@example.com';[39m
+2026-07-30 19:09:17:917 [37mdebug[39m: [37mExecuting (default): SELECT `id`, `email`, `password`, `name`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`email` = 'user@example.com';[39m
+2026-07-30 19:11:02:112 [34minfo[39m: [34mRedis connected successfully.[39m
+2026-07-30 19:11:02:112 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 19:11:02:112 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'venues' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:11:02:112 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `venues`[39m
+2026-07-30 19:11:02:112 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'events' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:11:02:112 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `events`[39m
+2026-07-30 19:11:02:112 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:11:02:112 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `users`[39m
+2026-07-30 19:11:02:112 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'orders' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:11:02:112 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `orders`[39m
+2026-07-30 19:11:03:113 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tickets' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:11:03:113 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `tickets`[39m
+2026-07-30 19:11:03:113 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 19:11:03:113 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 19:11:20:1120 [34minfo[39m: [34mRedis connected successfully.[39m
+2026-07-30 19:11:20:1120 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 19:11:20:1120 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'venues' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:11:20:1120 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `venues`[39m
+2026-07-30 19:11:20:1120 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'events' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:11:20:1120 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `events`[39m
+2026-07-30 19:11:20:1120 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:11:20:1120 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `users`[39m
+2026-07-30 19:11:20:1120 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'orders' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:11:20:1120 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `orders`[39m
+2026-07-30 19:11:20:1120 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tickets' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:11:20:1120 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `tickets`[39m
+2026-07-30 19:11:20:1120 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 19:11:20:1120 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 19:11:38:1138 [34minfo[39m: [34mRedis connected successfully.[39m
+2026-07-30 19:11:38:1138 [37mdebug[39m: [37mExecuting (default): SELECT 1+1 AS result[39m
+2026-07-30 19:11:38:1138 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'venues' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:11:38:1138 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `venues`[39m
+2026-07-30 19:11:38:1138 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'events' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:11:38:1138 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `events`[39m
+2026-07-30 19:11:38:1138 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:11:38:1138 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `users`[39m
+2026-07-30 19:11:38:1138 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'orders' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:11:38:1138 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `orders`[39m
+2026-07-30 19:11:38:1138 [37mdebug[39m: [37mExecuting (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'tickets' AND TABLE_SCHEMA = 'ticketwave'[39m
+2026-07-30 19:11:38:1138 [37mdebug[39m: [37mExecuting (default): SHOW INDEX FROM `tickets`[39m
+2026-07-30 19:11:38:1138 [34minfo[39m: [34mMySQL Database connected successfully.[39m
+2026-07-30 19:11:39:1139 [34minfo[39m: [34mServer is running on port 3000 in development mode[39m
+2026-07-30 19:11:47:1147 [37mdebug[39m: [37mExecuting (default): SELECT `id`, `email`, `password`, `name`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`email` = 'user@example.com';[39m
+2026-07-30 19:12:35:1235 [37mdebug[39m: [37mExecuting (default): SELECT `id`, `email`, `password`, `name`, `createdAt`, `updatedAt` FROM `users` AS `User` WHERE `User`.`email` = 'user@example.com';[39m
+2026-07-30 19:13:15:1315 [37mdebug[39m: [37mExecuting (default): SELECT `id`, `title`, `description`, `date`, `venueId`, `artist`, `city`, `type`, `metadata`, `createdAt`, `updatedAt` FROM `events` AS `Event` WHERE `Event`.`city` = 'Madrid' AND `Event`.`artist` = 'ArtistName';[39m
+2026-07-30 19:13:48:1348 [37mdebug[39m: [37mExecuting (default): SELECT `id`, `title`, `description`, `date`, `venueId`, `artist`, `city`, `type`, `metadata`, `createdAt`, `updatedAt` FROM `events` AS `Event` WHERE `Event`.`city` = 'Madrid' AND `Event`.`artist` = 'ArtistName';[39m

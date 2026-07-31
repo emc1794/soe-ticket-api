@@ -1,0 +1,7 @@
+@baseUrl = http://localhost:3000/api/v1
+@authToken = {{login.response.body.token}}
+
+### Obtener perfil de usuario
+GET {{baseUrl}}/users/profile
+Authorization: Bearer {{authToken}}
+Content-Type: application/json

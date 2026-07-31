@@ -19,5 +19,7 @@ C4Component
     Rel(ticketing, promo, "Calcula precios y descuentos con", "Internal Call")
     Rel(ticketing, payment, "Inicia pago mediante", "Internal Call")
     
-    Rel(ticketing, eventBus, "Publica eventos como 'TicketPurchased'", "Memory")
-    Rel(eventBus, notif, "Notifica a", "Async Event")
+    Rel(ticketing, eventBus, "Publica 'OrderCreated', 'TicketPurchased'", "Memory")
+    Rel(payment, eventBus, "Publica 'PaymentProcessed'", "Memory")
+    Rel(eventBus, ticketing, "Confirma orden tras 'PaymentProcessed'", "Async Event")
+    Rel(eventBus, notif, "Notifica tras 'TicketPurchased'", "Async Event")

@@ -1,0 +1,5 @@
+@baseUrl = http://localhost:3000/api/v1
+
+### Listar pagos
+GET {{baseUrl}}/payments
+Content-Type: application/json
