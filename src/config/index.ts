@@ -26,6 +26,13 @@ class Config {
     EXPIRES_IN: string;
     REFRESH_EXPIRES_IN: string;
   };
+  public readonly RABBITMQ: {
+    HOST: string;
+    PORT: number;
+    USER: string;
+    PASSWORD: string;
+    URL: string;
+  };
 
   private constructor() {
     this.PORT = Number(process.env.PORT) || 3000;
@@ -50,6 +57,19 @@ class Config {
       REFRESH_SECRET: process.env.JWT_REFRESH_SECRET || 'refresh-secret',
       EXPIRES_IN: process.env.JWT_EXPIRES_IN || '1h',
       REFRESH_EXPIRES_IN: process.env.JWT_REFRESH_EXPIRES_IN || '7d',
+    };
+
+    const rabbitHost = process.env.RABBITMQ_HOST || 'localhost';
+    const rabbitPort = Number(process.env.RABBITMQ_PORT) || 5672;
+    const rabbitUser = process.env.RABBITMQ_USER || 'guest';
+    const rabbitPassword = process.env.RABBITMQ_PASSWORD || 'guest';
+
+    this.RABBITMQ = {
+      HOST: rabbitHost,
+      PORT: rabbitPort,
+      USER: rabbitUser,
+      PASSWORD: rabbitPassword,
+      URL: `amqp://${rabbitUser}:${rabbitPassword}@${rabbitHost}:${rabbitPort}`,
     };
   }
 

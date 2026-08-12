@@ -2,11 +2,11 @@ import { DataTypes, Model } from 'sequelize';
 import sequelize from '../../../../database/mysql';
 
 export class VenueModel extends Model {
-  public id!: string;
-  public name!: string;
-  public address!: string;
-  public city!: string;
-  public capacity!: number;
+  declare id: string;
+  declare name: string;
+  declare address: string;
+  declare city: string;
+  declare capacity: number;
 }
 
 VenueModel.init(

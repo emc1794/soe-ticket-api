@@ -2,10 +2,10 @@ import { DataTypes, Model } from 'sequelize';
 import sequelize from '../../../../database/mysql';
 
 export class UserModel extends Model {
-  public id!: string;
-  public email!: string;
-  public password!: string;
-  public name!: string;
+  declare id: string;
+  declare email: string;
+  declare password: string;
+  declare name: string;
 }
 
 UserModel.init(

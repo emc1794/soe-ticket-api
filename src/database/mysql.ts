@@ -23,7 +23,9 @@ const sequelize = new Sequelize(
 export const connectDB = async () => {
   try {
     await sequelize.authenticate();
-    await sequelize.sync();
+    // No formal migration tooling yet: auto-alter tables in development so
+    // schema changes to the Sequelize models are reflected in the local DB.
+    await sequelize.sync({ alter: config.NODE_ENV === 'development' });
     logger.info('MySQL Database connected successfully.');
   } catch (error) {
     logger.error('Unable to connect to the MySQL database:', error);

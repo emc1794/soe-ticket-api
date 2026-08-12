@@ -1,5 +1,5 @@
 import { DomainEventSubscriber, DomainEventClass } from '../../../../shared/domain/events/DomainEvent';
-import { PaymentProcessed } from '../../../payment/domain/events/PaymentProcessed';
+import { PaymentSuccessful } from '../../../payment/domain/events/PaymentSuccessful';
 import { OrderRepository } from '../../domain/OrderRepository';
 import { TicketRepository } from '../../domain/TicketRepository';
 import { Ticket } from '../../domain/Ticket';
@@ -7,7 +7,7 @@ import { EventBus } from '../../../../shared/domain/bus/EventBus';
 import { TicketPurchased } from '../../domain/events/TicketPurchased';
 import { seatLock } from '../../../../shared/infrastructure/lock/RedisSeatLock';
 
-export class ConfirmOrderOnPaymentProcessed implements DomainEventSubscriber<PaymentProcessed> {
+export class ConfirmOrderOnPaymentSuccessful implements DomainEventSubscriber<PaymentSuccessful> {
   constructor(
     private orderRepository: OrderRepository,
     private ticketRepository: TicketRepository,
@@ -15,12 +15,10 @@ export class ConfirmOrderOnPaymentProcessed implements DomainEventSubscriber<Pay
   ) {}
 
   subscribedTo(): DomainEventClass[] {
-    return [PaymentProcessed];
+    return [PaymentSuccessful];
   }
 
-  async on(event: PaymentProcessed): Promise<void> {
-    if (event.status !== 'SUCCESS') return;
-
+  async on(event: PaymentSuccessful): Promise<void> {
     const order = await this.orderRepository.findById(event.orderId);
     if (!order) {
       console.error(`Order ${event.orderId} not found`);
@@ -45,7 +43,7 @@ export class ConfirmOrderOnPaymentProcessed implements DomainEventSubscriber<Pay
           `QR-${ticketId}`
         );
         await this.ticketRepository.save(ticket);
-        
+
         await this.eventBus.publish([
           new TicketPurchased(ticket.id, ticket.id, ticket.userId)
         ]);

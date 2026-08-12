@@ -3,6 +3,11 @@ export enum EventType {
   GENERAL = 'general',
 }
 
+export enum EventStatus {
+  ACTIVE = 'ACTIVE',
+  CANCELLED = 'CANCELLED',
+}
+
 export class Event {
   constructor(
     public readonly id: string,
@@ -13,6 +18,11 @@ export class Event {
     public readonly artist: string,
     public readonly city: string,
     public readonly type: EventType = EventType.GENERAL,
-    public readonly metadata: Record<string, any> = {}
+    public readonly metadata: Record<string, any> = {},
+    public status: EventStatus = EventStatus.ACTIVE
   ) {}
+
+  cancel(): void {
+    this.status = EventStatus.CANCELLED;
+  }
 }

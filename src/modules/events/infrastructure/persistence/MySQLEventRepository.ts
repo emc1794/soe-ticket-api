@@ -16,6 +16,7 @@ export class MySQLEventRepository implements EventRepository {
       city: event.city,
       type: event.type,
       metadata: event.metadata,
+      status: event.status,
     });
   }
 
@@ -78,7 +79,8 @@ export class MySQLEventRepository implements EventRepository {
       model.artist,
       model.city,
       model.type as any,
-      model.metadata
+      model.metadata,
+      model.status as any
     );
   }
 }

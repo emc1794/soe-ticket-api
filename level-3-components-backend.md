@@ -1,54 +1,53 @@
-### Level 3: Component Diagram (Refined Backend Monolith)
+### Level 3: Component Diagram (Event-Driven Backend)
 
 ```mermaid
 C4Component
-    title Component diagram for Backend Monolith - Domain Partitioning
+    title Component diagram for Backend Monolith - Event-Driven Integration
 
-    Container(spa, "SPA / Mobile App", "React", "Provides user interface.")
+    Container(broker, "Message Broker", "RabbitMQ", "Central event bus.")
     ContainerDb(database, "Main Database", "MySQL", "Stores system state.")
 
     Container_Boundary(monolith, "Backend Monolith") {
         
-        Boundary(identity_context, "Identity Context") {
-            Component(identity, "Identity Module", "Passport.js / JWT", "Authentication, Authorization, and Digital Pass Issuance.")
-        }
-
         Boundary(events_context, "Events Context") {
-            Component(events_core, "Events Module", "Node.js", "Core domain logic for event management and catalog.")
-            Component(venue_adapter, "Venue Plugin Manager", "Microkernel Pattern", "Handles different venue integrations for seating maps and real-time availability.")
+            Component(events_svc, "Events Module", "Domain Logic", "Publishes 'EventCancelled' or 'EventUpdated'.")
         }
 
         Boundary(ordering_context, "Ordering Context") {
-            Component(ordering, "Ordering Module", "Node.js", "Strict domain logic for reservations and booking lifecycle.")
+            Component(ordering_svc, "Ordering Service", "Domain Logic", "Publishes 'OrderCreated'; Consumes 'PaymentSuccessful'.")
         }
 
         Boundary(payment_context, "Payment Context") {
-            Component(payment, "Payment Module", "Node.js", "Encapsulates all payment provider integrations.")
+            Component(payment_svc, "Payment Module", "Domain Logic", "Consumes 'OrderCreated'; Publishes 'PaymentSuccessful' or 'PaymentFailed'.")
         }
 
         Boundary(notif_context, "Notification Context") {
-            Component(notification, "Notification Module", "Node.js", "Handles internal event-to-notification mapping.")
+            Component(notif_svc, "Notification Module", "Domain Logic", "Consumes various events to trigger user alerts.")
+        }
+
+        Boundary(identity_context, "Identity Context") {
+            Component(identity_svc, "Identity Module", "Domain Logic", "Consumes 'PaymentSuccessful' to generate digital tickets.")
         }
     }
 
-    System_Ext(payment_ext, "Payment Gateway", "External payment processor.")
-    System_Ext(venue_ext, "Venue Systems", "Proprietary venue seating/access systems.")
-    System_Ext(notifications_ext, "Notification Service", "External email/SMS provider.")
-
-    Rel(spa, identity, "Auth/Profile", "JSON/HTTPS")
-    Rel(spa, events_core, "Browse Events", "JSON/HTTPS")
-    Rel(spa, ordering, "Book Tickets", "JSON/HTTPS")
-
-    Rel(ordering, events_core, "Check Availability", "Internal Domain Service")
-    Rel(ordering, payment, "Execute Payment", "Internal Domain Service")
+    Rel(ordering_svc, broker, "Publishes 'OrderCreated'", "Events")
+    Rel(broker, payment_svc, "Delivers 'OrderCreated'", "Events")
     
-    Rel(events_core, venue_adapter, "Uses", "Internal API")
-    Rel(venue_adapter, venue_ext, "Syncs Seating Maps", "HTTPS/API")
-    
-    Rel(payment, payment_ext, "Processes Payment", "HTTPS/API")
-    Rel(notification, notifications_ext, "Sends Alerts", "SMTP/API")
+    Rel(payment_svc, broker, "Publishes 'PaymentSuccessful'", "Events")
+    Rel(broker, ordering_svc, "Delivers 'PaymentSuccessful'", "Events")
+    Rel(broker, identity_svc, "Delivers 'PaymentSuccessful'", "Events")
+    Rel(broker, notif_svc, "Delivers 'PaymentSuccessful'", "Events")
 
-    Rel(identity, database, "SQL/JDBC")
-    Rel(events_core, database, "SQL/JDBC")
-    Rel(ordering, database, "SQL/JDBC")
+    Rel(events_svc, broker, "Publishes 'EventCancelled'", "Events")
+    Rel(broker, notif_svc, "Delivers 'EventCancelled'", "Events")
+
+    Rel(identity_svc, database, "SQL/JDBC")
+    Rel(events_svc, database, "SQL/JDBC")
+    Rel(ordering_svc, database, "SQL/JDBC")
 ```
+
+**Note:** this diagram is scoped to this session's focus — event publishing/consuming — so it
+omits sub-component detail that hasn't changed, such as the `Venue Plugin Manager` introduced in
+Session 3. That integration still exists inside the Events Module (see the C2 diagram's
+`Rel(api, venue, ...)`, unchanged since Session 2); it just isn't part of the event-driven
+messaging this session is teaching.

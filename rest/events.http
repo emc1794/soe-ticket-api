@@ -23,3 +23,7 @@ Content-Type: application/json
 ### Venue Plugin Manager: disponibilidad en tiempo real usando el adapter "legacy"
 GET {{baseUrl}}/events/venues/venue-1/availability?provider=legacy
 Content-Type: application/json
+
+### Cancelar evento (publica el evento de dominio 'EventCancelled' vía RabbitMQ)
+POST {{baseUrl}}/events/event-1/cancel
+Content-Type: application/json

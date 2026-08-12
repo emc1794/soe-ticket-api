@@ -3,15 +3,16 @@ import sequelize from '../../../../database/mysql';
 import { VenueModel } from './VenueModel';
 
 export class EventModel extends Model {
-  public id!: string;
-  public title!: string;
-  public description!: string;
-  public date!: Date;
-  public venueId!: string;
-  public artist!: string;
-  public city!: string;
-  public type!: string;
-  public metadata!: any;
+  declare id: string;
+  declare title: string;
+  declare description: string;
+  declare date: Date;
+  declare venueId: string;
+  declare artist: string;
+  declare city: string;
+  declare type: string;
+  declare metadata: any;
+  declare status: string;
 }
 
 EventModel.init(
@@ -56,6 +57,11 @@ EventModel.init(
     metadata: {
       type: DataTypes.JSON,
       defaultValue: {},
+      allowNull: false,
+    },
+    status: {
+      type: DataTypes.ENUM('ACTIVE', 'CANCELLED'),
+      defaultValue: 'ACTIVE',
       allowNull: false,
     },
   },

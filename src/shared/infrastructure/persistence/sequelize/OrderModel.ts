@@ -4,14 +4,14 @@ import { EventModel } from './EventModel';
 import { UserModel } from './UserModel';
 
 export class OrderModel extends Model {
-  public id!: string;
-  public userId!: string;
-  public eventId!: string;
-  public amount!: number;
-  public status!: string;
-  public seatNumbers!: string[];
-  public appliedPromoCode!: string;
-  public discountedAmount!: number;
+  declare id: string;
+  declare userId: string;
+  declare eventId: string;
+  declare amount: number;
+  declare status: string;
+  declare seatNumbers: string[];
+  declare appliedPromoCode: string;
+  declare discountedAmount: number;
 }
 
 OrderModel.init(

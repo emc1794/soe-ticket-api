@@ -5,12 +5,12 @@ import { EventModel } from './EventModel';
 import { UserModel } from './UserModel';
 
 export class TicketModel extends Model {
-  public id!: string;
-  public orderId!: string;
-  public eventId!: string;
-  public userId!: string;
-  public seatNumber?: string;
-  public qrCode?: string;
+  declare id: string;
+  declare orderId: string;
+  declare eventId: string;
+  declare userId: string;
+  declare seatNumber?: string;
+  declare qrCode?: string;
 }
 
 TicketModel.init(

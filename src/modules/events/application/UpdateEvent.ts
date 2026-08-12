@@ -33,7 +33,8 @@ export class UpdateEvent {
       params.artist ?? event.artist,
       params.city ?? event.city,
       params.type ?? event.type,
-      params.metadata ?? event.metadata
+      params.metadata ?? event.metadata,
+      event.status
     );
 
     await this.eventRepository.save(updatedEvent);

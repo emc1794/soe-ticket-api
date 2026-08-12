@@ -1,3 +1,4 @@
-import { EventEmitterBus } from './EventEmitterBus';
+import { RabbitMQEventBus } from './RabbitMQEventBus';
+import { config } from '../../../config';
 
-export const eventBus = new EventEmitterBus();
+export const eventBus = new RabbitMQEventBus(config.RABBITMQ.URL);
