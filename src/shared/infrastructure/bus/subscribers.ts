@@ -1,31 +1,32 @@
 import { eventBus } from './sharedEventBus';
-import { NotifyOnTicketPurchased } from '../../../modules/notification/application/subscribers/NotifyOnTicketPurchased';
-import { NotifyOnOrderCancelled } from '../../../modules/notification/application/subscribers/NotifyOnOrderCancelled';
 import { NotifyOnEventUpdated } from '../../../modules/notification/application/subscribers/NotifyOnEventUpdated';
 import { NotifyOnEventCancelled } from '../../../modules/notification/application/subscribers/NotifyOnEventCancelled';
 import { NotifyOnPaymentSuccessful } from '../../../modules/notification/application/subscribers/NotifyOnPaymentSuccessful';
-import { ProcessPaymentOnCommand } from '../../../modules/payment/application/subscribers/ProcessPaymentOnCommand';
+import { SendOrderConfirmation } from '../../../modules/notification/application/SendOrderConfirmation';
+import { CheckFraud } from '../../../modules/payment/fraud/CheckFraud';
+import { ValidateFraudOnOrderCreated } from '../../../modules/payment/fraud/subscribers/ValidateFraudOnOrderCreated';
 import { ProcessPayment } from '../../../modules/payment/application/ProcessPayment';
-import { AdvanceSagaOnPaymentSuccessful } from '../../../modules/ordering/saga/subscribers/AdvanceSagaOnPaymentSuccessful';
-import { CompensateSagaOnPaymentFailed } from '../../../modules/ordering/saga/subscribers/CompensateSagaOnPaymentFailed';
-import { bookingSagaOrchestrator } from '../../../modules/ordering/saga/sharedBookingSagaOrchestrator';
+import { IssueDigitalPass } from '../../../modules/identity/application/IssueDigitalPass';
+import { IssueTicketAndNotifyOnOrderCompleted } from '../../../modules/order-sync/application/subscribers/IssueTicketAndNotifyOnOrderCompleted';
 
 export function registerSubscribers(): void {
   const processPayment = new ProcessPayment(eventBus);
+  const checkFraud = new CheckFraud();
+  const issueDigitalPass = new IssueDigitalPass();
+  const sendOrderConfirmation = new SendOrderConfirmation();
 
   eventBus.addSubscribers([
-    // Notification module: unchanged choreography, reacts to events independently.
-    new NotifyOnTicketPurchased(),
-    new NotifyOnOrderCancelled(),
+    // Events module: unchanged choreography.
     new NotifyOnEventUpdated(),
     new NotifyOnEventCancelled(),
+
+    // Payment module: still announces its own outcome independently.
     new NotifyOnPaymentSuccessful(),
 
-    // Payment module: executes the async "Process Payment" command dispatched by the saga.
-    new ProcessPaymentOnCommand(processPayment),
+    // Fraud Check Module: gates payment on 'OrderCreated' delivered from the Ordering Service.
+    new ValidateFraudOnOrderCreated(checkFraud, processPayment, eventBus),
 
-    // Booking Saga Orchestrator: resumes the saga once Payment answers over the broker.
-    new AdvanceSagaOnPaymentSuccessful(bookingSagaOrchestrator),
-    new CompensateSagaOnPaymentFailed(bookingSagaOrchestrator),
+    // Ordering Event Consumer: reacts to 'OrderCompleted' from the Ordering Service.
+    new IssueTicketAndNotifyOnOrderCompleted(issueDigitalPass, sendOrderConfirmation),
   ]);
 }

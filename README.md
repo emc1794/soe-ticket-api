@@ -1,44 +1,56 @@
-Diseña flujos de trabajo resilientes entre múltiples servicios mediante
-el uso del patrón Saga y acciones compensatorias, gestionando fallos
-parciales del sistema y priorizando la recuperación automática y la
-integridad de los datos.
+Ejecuta la extracción progresiva de microservicios y la separación de
+operaciones de lectura y escritura mediante el patrón CQRS, tomando
+decisiones fundamentadas en perfiles reales de carga y equilibrando
+los beneficios de la escalabilidad con la complejidad operativa
+inherente a las arquitecturas distribuidas.
 
+Physically extract one modular domain into its own
+independent deployment unit with its own dedicated, isolated
+database instance.
 
-Create a multi-service workflow (e.g., booking/payment/shipping) using the Saga Pattern (Choreography or Orchestration).
+## Reduced Monolith (Session 6)
 
-## Booking Saga (Orchestration)
+The Ordering domain (Order/Ticket entities, their MySQL tables, the Booking Saga Orchestrator,
+and the `/ordering` HTTP routes) has been **removed from this repository** — it is now expected
+to live in its own independently deployable Ordering Service with its own isolated database.
+**That service itself is out of scope for this change** and is deferred to a future session; this
+change only makes the monolith match its reduced shape from `level-3-components-monolith-backend.md`
+and choreographs correctly with a service that publishes/consumes the contracts below.
 
-`BookingSagaOrchestrator` (`modules/ordering/saga/BookingSagaOrchestrator.ts`) coordinates the
-booking workflow end to end. Every cross-context call is issued **from** the orchestrator — Events,
-Fraud, Identity and Ordering's own use cases never call each other directly or know about the
-saga's other steps. This is orchestration, not choreography: contrast with the Notification module
-(unchanged since Session 2), which still reacts to events independently.
+Since an in-process orchestrator can't make synchronous calls across two independently deployed
+services, the Session 5 saga collapses back into pure choreography over RabbitMQ for the part that
+still lives in this monolith:
 
-1. **Reserve Seat** — `Events` module (`SeatReservation`, Redis-backed hold). Internal call.
-2. **Validate Fraud Risk** — `Fraud` module, reintroduced as a component inside the Payment
-   bounded context (`modules/payment/fraud/CheckFraud.ts`). Internal call.
-   - On rejection: compensate by releasing the seat, reject the request synchronously (no order
-     is ever created).
-3. **Process Payment** — the only step that crosses the RabbitMQ broker. The saga publishes
-   `ProcessPaymentCommand`; Payment's `ProcessPaymentOnCommand` subscriber consumes it and
-   replies with `PaymentSuccessful` / `PaymentFailed`. The HTTP request returns `202 Accepted`
-   here — the saga pauses and resumes asynchronously.
-4. **On `PaymentSuccessful`** (`onPaymentSuccessful`): Issue Ticket via `Identity`
-   (`IssueDigitalPass`, internal call) → `CompleteOrder` marks the order `PAID` and creates the
-   `Ticket` rows → release the seat hold now that it's a permanent ticket.
-5. **On `PaymentFailed`** (`onPaymentFailed`, compensation): release the seat hold, then
-   `CancelOrder`.
+1. The (external, not-yet-built) Ordering Service publishes `OrderCreated`.
+2. **Fraud** (`modules/payment/fraud/`, a component of the Payment context) consumes it directly,
+   calls `CheckFraud`, and either:
+   - passes → calls `ProcessPayment` **in-process** (Fraud and Payment are still co-located here), or
+   - rejects → publishes `PaymentFailed` **itself** (Payment is never invoked for a rejected order).
+3. **Payment** processes the (mocked) charge and publishes `PaymentSuccessful` / `PaymentFailed`,
+   same as Session 5. Notification still reacts to `PaymentSuccessful` independently, unchanged.
+4. Once the Ordering Service has seen `PaymentSuccessful` and finalized the order on its own side
+   (not built here), it is expected to publish `OrderCompleted`. The new **Ordering Event Consumer**
+   (`modules/order-sync/`) reacts to it with two in-process calls: `Identity.IssueDigitalPass`
+   (ticket issuance) and `Notification.SendOrderConfirmation` (confirmation alert).
 
-There is no separate saga-state table: the `Order.status` transition (`PENDING` → `PAID` /
-`CANCELLED`) in MySQL **is** the saga state, and both completion paths are idempotent (re-delivery
-of `PaymentSuccessful`/`PaymentFailed` is a no-op if the order is already in its terminal state).
-That keeps the saga scoped to what this exercise asks for, without a bespoke persistence model.
+`OrderCreated` / `OrderCompleted` now live as lightweight **external event contracts** in
+`shared/contracts/` — this monolith only consumes them, it doesn't own or publish them. They exist
+purely so RabbitMQ subscribers here have a typed shape to bind to; the source of truth for orders
+is the (future) Ordering Service's own database.
 
-Design trade-off worth calling out: the `Ticket`/digital-pass split follows the diagram literally
-(Identity "issues" the pass, Ordering "completes" the order), but the actual `Ticket` entity and
-its MySQL table stay owned by Ordering rather than migrating to Identity — the data is inherently
-order/seat-shaped (`orderId`, `eventId`, `seatNumber`), and a cross-module data migration wasn't
-warranted just to satisfy a C4 box.
+**Left in place on purpose:** `SeatReservation` (`modules/events/domain/SeatReservation.ts`) has no
+caller left in this monolith — its only caller (the saga orchestrator) was removed — but it's the
+capability the future Ordering Service will need to call to reserve/release seats, so it wasn't
+deleted, just currently unwired. The `orders`/`tickets` tables also still physically exist in the
+monolith's MySQL instance; dropping/migrating them belongs to the same deferred extraction work as
+building the service itself, not to this change.
+
+## Booking Saga (Orchestration) — Session 5, superseded above
+
+Session 5 introduced `BookingSagaOrchestrator` as a single in-process coordinator for the whole
+booking workflow. That component no longer exists in this monolith (see above) — kept here only as
+a pointer for anyone reading history: the orchestration approach doesn't survive a physical service
+boundary, hence the fallback to broker choreography for the steps that now span two services.
 
 ## Event-Driven Architecture
 
@@ -48,38 +60,34 @@ auto-delete queue to the routing key it cares about, so a single event can fan o
 bounded contexts without them knowing about each other (`shared/infrastructure/bus/subscribers.ts`
 is the only place that wires publishers to subscribers).
 
-Domain event map (matches `level-3-components-backend.md`):
+Domain event map:
 
 | Event | Published by | Consumed by |
 |---|---|---|
-| `OrderCreated` | Ordering (saga step 1-4) | — (observability only) |
-| `ProcessPaymentCommand` | Ordering (saga step 5) | Payment |
-| `PaymentSuccessful` | Payment | Ordering (saga), Notification |
-| `PaymentFailed` | Payment | Ordering (saga) |
+| `OrderCreated` | *(external)* Ordering Service | Fraud |
+| `PaymentSuccessful` | Payment | Notification; *(external)* Ordering Service |
+| `PaymentFailed` | Payment, or Fraud (on rejection) | *(external)* Ordering Service |
+| `OrderCompleted` | *(external)* Ordering Service | Ordering Event Consumer (`order-sync`) |
 | `EventCancelled` | Events | Notification |
 | `EventUpdated` | Events | Notification |
-| `TicketPurchased` | Ordering (saga step 9) | Notification |
-| `OrderCancelled` | Ordering (saga compensation) | Notification |
 
 Bootstrap order in `server.ts`: connect to RabbitMQ → register subscribers → connect to MySQL →
 start listening. On `SIGINT`/`SIGTERM` the broker connection is closed before the process exits.
 
 ## Architecture
 
-Backend monolith partitioned into 5 bounded contexts (see `level-3-components-backend.md`), each mapped 1:1 to `src/modules/<context>`:
+Backend monolith partitioned into bounded contexts (see `level-3-components-monolith-backend.md`), each mapped 1:1 to `src/modules/<context>`:
 
 * **Identity Context** — `identity`: authentication, authorization, and digital pass issuance (JWT).
 * **Events Context** — `events`:
-  * `events` core — event catalog, search, and lifecycle (domain/application layers).
-  * **Seat Reservation** (`domain/SeatReservation.ts`) — Redis-backed temporary seat holds, used by the Booking Saga.
-  * **Venue Plugin Manager** (`infrastructure/venue`) — a microkernel component that decouples venue integrations (seating maps, real-time availability) from the core domain. `VenueAdapter` is the plugin contract; `VenuePluginManager` is the registry/dispatcher; concrete integrations (`GenericVenueAdapter`, `LegacyVenueAdapter`) are pluggable adapters registered at bootstrap (`sharedVenuePluginManager.ts`).
-* **Ordering Context** — `ordering`: order lifecycle, and the **Booking Saga Orchestrator** (see above) that drives it.
+  * `events` core — event catalog, search, and lifecycle.
+  * **Seat Reservation** — Redis-backed temporary seat holds (currently unwired — see above).
+  * **Venue Plugin Manager** (`infrastructure/venue`) — microkernel component for pluggable venue integrations (`GenericVenueAdapter`, `LegacyVenueAdapter`).
 * **Payment Context** — `payment`:
   * `payment` core — payment provider integration (mocked; no direct DB persistence).
-  * **Fraud** (`fraud/CheckFraud.ts`) — a component inside the Payment context, called by the saga before payment is attempted.
-* **Notification Context** — `notification`: maps internal domain events to outbound notifications.
+  * **Fraud** (`fraud/`) — gates payment on `OrderCreated`, reintroduced as a Payment-context component.
+* **Notification Context** — `notification`: maps internal domain events to outbound notifications, plus `SendOrderConfirmation` (called directly by `order-sync`).
+* **Order Sync** — `order-sync`: the "Ordering Event Consumer" — reacts to `OrderCompleted` from the (external) Ordering Service.
 
-Cross-context calls either go through the Booking Saga Orchestrator (synchronous, in-process) or
-through the RabbitMQ domain event bus (asynchronous) — no module imports another module's
-application services directly except the saga orchestrator itself, which is explicitly the
-integration point.
+No SPA-facing booking endpoint remains in this monolith (`/ordering/*` is gone) — per the diagram,
+the SPA now only calls `identity` and `events` here directly (no gateway yet).
