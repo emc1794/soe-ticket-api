@@ -11,3 +11,15 @@ Content-Type: application/json
 ### Búsqueda general
 GET {{baseUrl}}/events/search
 Content-Type: application/json
+
+### Venue Plugin Manager: proveedores de integración registrados
+GET {{baseUrl}}/events/venues
+Content-Type: application/json
+
+### Venue Plugin Manager: sincronizar mapa de asientos (adapter por defecto "generic")
+GET {{baseUrl}}/events/venues/venue-1/seating-map
+Content-Type: application/json
+
+### Venue Plugin Manager: disponibilidad en tiempo real usando el adapter "legacy"
+GET {{baseUrl}}/events/venues/venue-1/availability?provider=legacy
+Content-Type: application/json
