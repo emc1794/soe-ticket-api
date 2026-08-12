@@ -1,21 +1,21 @@
 import { RedisSeatLock, seatLock } from '../../../shared/infrastructure/lock/RedisSeatLock';
 
-export class LockSeats {
+export class SeatReservation {
   constructor(private lockProvider: RedisSeatLock = seatLock) {}
 
-  async execute(eventId: string, seatNumbers: string[], userId: string): Promise<boolean> {
-    const lockedSeats: string[] = [];
-    
+  async reserve(eventId: string, seatNumbers: string[], userId: string): Promise<boolean> {
+    const reservedSeats: string[] = [];
+
     for (const seatNumber of seatNumbers) {
       const locked = await this.lockProvider.lock(eventId, seatNumber, userId);
       if (!locked) {
         // Rollback
-        await this.release(eventId, lockedSeats);
+        await this.release(eventId, reservedSeats);
         return false;
       }
-      lockedSeats.push(seatNumber);
+      reservedSeats.push(seatNumber);
     }
-    
+
     return true;
   }
 

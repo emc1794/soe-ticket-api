@@ -1,16 +1,17 @@
 @baseUrl = http://localhost:3000/api/v1
-@authToken = {{login.response.body.token}}
+@authToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhNjM0ZWM1NS03NzU1LTRjNTctYWIxNS1mM2E5ZWJmZWM0MjciLCJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJpYXQiOjE3ODY1Njg1NTYsImV4cCI6MTc4NjU3MjE1Nn0.QrJN84Ep6gVLDB9mXSQYQpjJZijQLq9HaaaItXamiYg
 
-### Crear orden
+### Iniciar la Booking Saga (reserva de asiento -> fraude -> pago async -> emisión)
+# Responde 202 Accepted: el pago se procesa de forma asíncrona vía RabbitMQ.
 POST {{baseUrl}}/ordering/orders
 Authorization: Bearer {{authToken}}
 Content-Type: application/json
 
 {
   "id": "order-123",
-  "userId": "user-456",
   "eventId": "event-789",
-  "amount": 100
+  "amount": 100,
+  "seatNumbers": ["A1"]
 }
 
 ### Listar tickets

@@ -1,53 +1,54 @@
-### Level 3: Component Diagram (Event-Driven Backend)
+### Level 3: Component Diagram (Saga Orchestration)
 
 ```mermaid
 C4Component
-    title Component diagram for Backend Monolith - Event-Driven Integration
+    title Component diagram for Backend Monolith - Saga Workflows
 
     Container(broker, "Message Broker", "RabbitMQ", "Central event bus.")
     ContainerDb(database, "Main Database", "MySQL", "Stores system state.")
 
     Container_Boundary(monolith, "Backend Monolith") {
         
-        Boundary(events_context, "Events Context") {
-            Component(events_svc, "Events Module", "Domain Logic", "Publishes 'EventCancelled' or 'EventUpdated'.")
+        Boundary(ordering_context, "Ordering Context") {
+            Component(ordering_svc, "Ordering Service", "Domain Logic", "Handles order management.")
+            Component(saga_orchestrator, "Booking Saga Orchestrator", "State Machine", "Coordinates the Booking -> Payment -> Issuance workflow.")
         }
 
-        Boundary(ordering_context, "Ordering Context") {
-            Component(ordering_svc, "Ordering Service", "Domain Logic", "Publishes 'OrderCreated'; Consumes 'PaymentSuccessful'.")
+        Boundary(events_context, "Events Context") {
+            Component(events_svc, "Events Module", "Domain Logic", "Handles seat reservations and releases.")
         }
 
         Boundary(payment_context, "Payment Context") {
-            Component(payment_svc, "Payment Module", "Domain Logic", "Consumes 'OrderCreated'; Publishes 'PaymentSuccessful' or 'PaymentFailed'.")
-        }
-
-        Boundary(notif_context, "Notification Context") {
-            Component(notif_svc, "Notification Module", "Domain Logic", "Consumes various events to trigger user alerts.")
+            Component(fraud_svc, "Fraud Check Module", "Domain Logic", "Validates the order for fraud risk before payment is attempted.")
+            Component(payment_svc, "Payment Module", "Domain Logic", "Processes payments and handles compensations.")
         }
 
         Boundary(identity_context, "Identity Context") {
-            Component(identity_svc, "Identity Module", "Domain Logic", "Consumes 'PaymentSuccessful' to generate digital tickets.")
+            Component(identity_svc, "Identity Module", "Domain Logic", "Issues digital passes.")
         }
     }
 
-    Rel(ordering_svc, broker, "Publishes 'OrderCreated'", "Events")
-    Rel(broker, payment_svc, "Delivers 'OrderCreated'", "Events")
+    Rel(saga_orchestrator, events_svc, "1. Command: Reserve Seat", "Internal Call")
+    Rel(events_svc, saga_orchestrator, "2. Event: Seat Reserved", "Internal Event")
     
-    Rel(payment_svc, broker, "Publishes 'PaymentSuccessful'", "Events")
-    Rel(broker, ordering_svc, "Delivers 'PaymentSuccessful'", "Events")
-    Rel(broker, identity_svc, "Delivers 'PaymentSuccessful'", "Events")
-    Rel(broker, notif_svc, "Delivers 'PaymentSuccessful'", "Events")
+    Rel(saga_orchestrator, fraud_svc, "3. Command: Validate Fraud Risk", "Internal Call")
+    Rel(fraud_svc, saga_orchestrator, "4. Event: Fraud Check Passed", "Internal Event")
 
-    Rel(events_svc, broker, "Publishes 'EventCancelled'", "Events")
-    Rel(broker, notif_svc, "Delivers 'EventCancelled'", "Events")
+    Rel(saga_orchestrator, broker, "5. Command: Process Payment", "AMQP")
+    Rel(broker, payment_svc, "Delivers Payment Command", "Events")
+    
+    Rel(payment_svc, broker, "6. Event: Payment Successful", "Events")
+    Rel(broker, saga_orchestrator, "Delivers Success Event", "Events")
+    
+    Rel(saga_orchestrator, identity_svc, "7. Command: Issue Ticket", "Internal Call")
+    Rel(identity_svc, saga_orchestrator, "8. Event: Ticket Issued", "Internal Event")
 
-    Rel(identity_svc, database, "SQL/JDBC")
-    Rel(events_svc, database, "SQL/JDBC")
-    Rel(ordering_svc, database, "SQL/JDBC")
+    Rel(saga_orchestrator, ordering_svc, "9. Update Order Status to 'Completed'", "Internal Call")
+    
+    Rel(saga_orchestrator, events_svc, "Compensation: Release Seat", "Internal Call (on failure — fraud rejection or payment failure)")
 ```
 
-**Note:** this diagram is scoped to this session's focus — event publishing/consuming — so it
-omits sub-component detail that hasn't changed, such as the `Venue Plugin Manager` introduced in
-Session 3. That integration still exists inside the Events Module (see the C2 diagram's
-`Rel(api, venue, ...)`, unchanged since Session 2); it just isn't part of the event-driven
-messaging this session is teaching.
+**Note:** this diagram is scoped to the saga's own steps, so it omits the Notification Module —
+unchanged since Session 2 and still present in the monolith (see the C2 diagram's
+`Rel(api, notifications, ...)`) — since sending the confirmation alert isn't itself a saga step
+with a compensation path.

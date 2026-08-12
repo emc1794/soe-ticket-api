@@ -1,15 +1,15 @@
 import { DomainEventSubscriber, DomainEventClass } from '../../../../shared/domain/events/DomainEvent';
 import { PaymentFailed } from '../../../payment/domain/events/PaymentFailed';
-import { CancelOrder } from '../CancelOrder';
+import { BookingSagaOrchestrator } from '../BookingSagaOrchestrator';
 
-export class CancelOrderOnPaymentFailed implements DomainEventSubscriber<PaymentFailed> {
-  constructor(private cancelOrder: CancelOrder) {}
+export class CompensateSagaOnPaymentFailed implements DomainEventSubscriber<PaymentFailed> {
+  constructor(private saga: BookingSagaOrchestrator) {}
 
   subscribedTo(): DomainEventClass[] {
     return [PaymentFailed];
   }
 
   async on(event: PaymentFailed): Promise<void> {
-    await this.cancelOrder.execute(event.orderId);
+    await this.saga.onPaymentFailed(event);
   }
 }

@@ -1,20 +1,17 @@
 import { Router } from 'express';
 import { OrderingController } from './OrderingController';
-import { PlaceOrder } from '../../application/PlaceOrder';
-import { orderRepository, ticketRepository } from '../../../../shared/infrastructure/persistence/RepositoryContainer';
-import { eventBus } from '../../../../shared/infrastructure/bus/sharedEventBus';
+import { bookingSagaOrchestrator } from '../../saga/sharedBookingSagaOrchestrator';
 import { authMiddleware } from '../../../../middlewares/auth.middleware';
 
 const router = Router();
 
-const placeOrder = new PlaceOrder(orderRepository, ticketRepository, eventBus);
-const orderingController = new OrderingController(placeOrder);
+const orderingController = new OrderingController(bookingSagaOrchestrator);
 
 /**
  * @swagger
  * /ordering/orders:
  *   post:
- *     summary: Create a new order
+ *     summary: Start the Booking Saga (reserve seat -> fraud check -> async payment -> issuance)
  *     tags: [ordering]
  *     requestBody:
  *       required: true
@@ -25,15 +22,17 @@ const orderingController = new OrderingController(placeOrder);
  *             properties:
  *               id:
  *                 type: string
- *               userId:
- *                 type: string
  *               eventId:
  *                 type: string
  *               amount:
  *                 type: number
+ *               seatNumbers:
+ *                 type: array
+ *                 items:
+ *                   type: string
  *     responses:
- *       201:
- *         description: Created
+ *       202:
+ *         description: Accepted - saga started, payment processing asynchronously
  */
 router.post('/', authMiddleware, (req, res) => orderingController.createOrder(req, res));
 

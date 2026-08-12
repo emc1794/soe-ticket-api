@@ -1,17 +1,17 @@
 import { DomainEventSubscriber, DomainEventClass } from '../../../../shared/domain/events/DomainEvent';
-import { OrderCreated } from '../../../ordering/domain/events/OrderCreated';
+import { ProcessPaymentCommand } from '../../../ordering/domain/commands/ProcessPaymentCommand';
 import { ProcessPayment } from '../ProcessPayment';
 
-export class ProcessPaymentOnOrderCreated implements DomainEventSubscriber<OrderCreated> {
+export class ProcessPaymentOnCommand implements DomainEventSubscriber<ProcessPaymentCommand> {
   constructor(private processPayment: ProcessPayment) {}
 
   subscribedTo(): DomainEventClass[] {
-    return [OrderCreated];
+    return [ProcessPaymentCommand];
   }
 
-  async on(event: OrderCreated): Promise<void> {
+  async on(event: ProcessPaymentCommand): Promise<void> {
     await this.processPayment.execute({
-      orderId: event.aggregateId,
+      orderId: event.orderId,
       userId: event.userId,
       amount: event.amount,
     });

@@ -1,12 +1,15 @@
 import { DomainEventSubscriber, DomainEventClass } from '../../../../shared/domain/events/DomainEvent';
 import { PaymentSuccessful } from '../../../payment/domain/events/PaymentSuccessful';
+import { BookingSagaOrchestrator } from '../BookingSagaOrchestrator';
 
-export class IssueDigitalPassOnPaymentSuccessful implements DomainEventSubscriber<PaymentSuccessful> {
+export class AdvanceSagaOnPaymentSuccessful implements DomainEventSubscriber<PaymentSuccessful> {
+  constructor(private saga: BookingSagaOrchestrator) {}
+
   subscribedTo(): DomainEventClass[] {
     return [PaymentSuccessful];
   }
 
   async on(event: PaymentSuccessful): Promise<void> {
-    console.log(`[Identity Module] Issuing digital pass to user ${event.userId} for order ${event.orderId}`);
+    await this.saga.onPaymentSuccessful(event);
   }
 }
