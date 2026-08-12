@@ -1,5 +1,0 @@
-@baseUrl = http://localhost:3000/api/v1
-
-### Listar promociones
-GET {{baseUrl}}/promotions
-Content-Type: application/json

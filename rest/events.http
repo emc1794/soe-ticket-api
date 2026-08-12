@@ -1,0 +1,13 @@
+@baseUrl = http://localhost:3000/api/v1
+
+### Buscar eventos
+GET {{baseUrl}}/events?city=Madrid&artist=ArtistName
+Content-Type: application/json
+
+### Listar sedes (venues)
+GET {{baseUrl}}/events/venues
+Content-Type: application/json
+
+### Búsqueda general
+GET {{baseUrl}}/events/search
+Content-Type: application/json

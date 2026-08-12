@@ -1,7 +1,0 @@
-@baseUrl = http://localhost:3000/api/v1
-@authToken = {{login.response.body.token}}
-
-### Verificar fraude
-GET {{baseUrl}}/fraud
-Authorization: Bearer {{authToken}}
-Content-Type: application/json

@@ -1,22 +1,16 @@
 import { Router } from 'express';
-import userRoutes from '../modules/users/infrastructure/http/user.routes';
-import authRoutes from '../modules/auth/infrastructure/http/auth.routes';
-import catalogRoutes from '../modules/catalog/infrastructure/http/catalog.routes';
-import ticketingRoutes from '../modules/ticketing/infrastructure/http/ticketing.routes';
+import identityRoutes from '../modules/identity/infrastructure/http/identity.routes';
+import eventsRoutes from '../modules/events/infrastructure/http/events.routes';
+import orderingRoutes from '../modules/ordering/infrastructure/http/ordering.routes';
 import paymentRoutes from '../modules/payment/infrastructure/http/payment.routes';
-import promoRoutes from '../modules/promo/infrastructure/http/promo.routes';
-import notifRoutes from '../modules/notif/infrastructure/http/notif.routes';
-import fraudRoutes from '../modules/fraud/infrastructure/http/fraud.routes';
+import notificationRoutes from '../modules/notification/infrastructure/http/notification.routes';
 
 const router = Router();
 
-router.use('/users', userRoutes);
-router.use('/auth', authRoutes);
-router.use('/catalog', catalogRoutes);
-router.use('/ticketing', ticketingRoutes);
+router.use('/identity', identityRoutes);
+router.use('/events', eventsRoutes);
+router.use('/ordering', orderingRoutes);
 router.use('/payment', paymentRoutes);
-router.use('/promo', promoRoutes);
-router.use('/notif', notifRoutes);
-router.use('/fraud', fraudRoutes);
+router.use('/notification', notificationRoutes);
 
 export default router;

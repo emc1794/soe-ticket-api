@@ -700,3 +700,4 @@
 2026-07-30 17:06:39:639 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
 2026-07-30 17:06:41:641 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
 2026-07-30 17:06:43:643 [31merror[39m: [31mRedis connection error: getaddrinfo ENOTFOUND =erlan-pc[39m
+2026-08-12 14:48:09:489 [31merror[39m: [31mUnable to connect to the MySQL database: Access denied for user 'ticketwave'@'172.17.0.1' (using password: YES)[39m

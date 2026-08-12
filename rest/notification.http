@@ -1,0 +1,5 @@
+@baseUrl = http://localhost:3000/api/v1
+
+### Listar notificaciones
+GET {{baseUrl}}/notification
+Content-Type: application/json
